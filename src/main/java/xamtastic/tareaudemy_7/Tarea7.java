@@ -19,7 +19,7 @@ public class Tarea7 {
         System.out.println("Proporciona un valor entre 0 y 10:");
         float numero = Float.parseFloat(scanner.nextLine());
         
-        if (numero>=9)
+        if (numero>=9 && numero <=10)
             System.out.println("A");
         else if (numero<9 && numero >=8)
             System.out.println("B");
@@ -29,6 +29,8 @@ public class Tarea7 {
             System.out.println("D");
         else if (numero<6 && numero >=0)
             System.out.println("F");
+        else
+            System.out.println("Valor desconocido");
     
     
     
